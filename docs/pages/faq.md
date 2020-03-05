@@ -42,4 +42,12 @@ If you are interested in the implementation of the algorithm, check out the [Rul
 
 ---
 
+#### How is the coordinate system for the board oriented?
+
+The board utilizes the screen coordinate system for the game, so position 0,0 is located in the upper left corner.
+
+<img src="/assets/images/board-orientation.png" alt="board orientation"/>
+
+---
+
 Have a question that isn't answered? <a href="mailto:hello@battlesnake.com">Let us know.</a>
