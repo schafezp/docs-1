@@ -6,7 +6,7 @@ layout: card
 
 # The Battlesnake Engine
 
-The engine is what runs Battlesnake games and makes the requests to your snake server. Any time you use the (https://play.battlesnake.com/account/games/create/)[Create Game] form on (play.battlesnake.com), you are communicating with the Battlesnake engine. We encourage everyone to use the public engine for thier testing as it will always run the latest version of the code and will contain the rule sets used in public tournaments. 
+The engine is what runs Battlesnake games and makes the requests to your snake server. Any time you use the [Create Game](https://play.battlesnake.com/account/games/create/) form on [play.battlesnake.com](play.battlesnake.com), you are communicating with the Battlesnake engine. We encourage everyone to use this publicly available engine for Battlesnake testing and debugging as it will always run the latest version of the code and will contain the rule sets used in public events and tournaments.
 
 # Running a Local Engine
 
@@ -27,9 +27,9 @@ When the engine launches it should show output the following:
 
 ```
 $ ./engine dev
-INFO[0000] dev form available at http://localhost:3010/ 
+INFO[0000] dev form available at http://localhost:3010/
 INFO[0000] Battlesnake controller serving                listen=":3004"
-INFO[0000] board available at http://localhost:3009/    
+INFO[0000] board available at http://localhost:3009/
 INFO[0000] Battlesnake worker starting                   worker=9
 INFO[0000] Battlesnake worker starting                   worker=0
 INFO[0000] Battlesnake api serving                       listen=":3005"
@@ -49,7 +49,7 @@ INFO[0000] connection to controller healthy              version=unreleased
 
 Running the engine in dev mode will launch a web server with a simple form for creating games. In a browser, go to (http://localhost:3010/). You should see a page that looks the image below. The left side of the page is the form for creating a game. The right side of the page is the Battlenake board, which will render once a game is started.
 
-To start a game, just provide a *name* and *URL* for your snake, then click on the **Start Game** button. 
+To start a game, just provide a *name* and *URL* for your snake, then click on the **Start Game** button.
 
 The game will be created on local engine server and start running. You should see traffic hit your snake server and within a few seconds the game will be rendered on the board. Click on the Play link at the bottom of the board to watch the game. In addition, use the **Add Snake** button to define up to 8 snakes for a game.
 
