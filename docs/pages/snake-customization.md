@@ -1,12 +1,17 @@
 ---
 title: Customizing Your Snake
+subtitle: How to make your Battlesnake as unique as you!
 permalink: /snake-customization
 layout: page
 ---
 
-Make your snake unique by assigning it a color, head, and tail in your response to the Battlesnake API's `start` request.
+## Controlling the Appearance of your Battlesnake
 
-### A response to start with these specifications:
+Your Battlesnake's appearance is decided in your response to the `/start`
+
+Make your snake unique by assigning it a color, head, and tail in your response to the [Battlesnake API Start Request](/snake-api#tag/endpoints/paths/~1start/post). Your response can select a `headType` and `tailType` style, as well as choose a `color` for your Battlesnake.
+
+#### Example Start Request Response
 
 ```
 {
@@ -15,7 +20,8 @@ Make your snake unique by assigning it a color, head, and tail in your response 
 	"tailType": "curled"
 }
 ```
-#### Will customize your snake like this!
+
+The above response will customize your Battlesnake to look like this:
 
 <div class="row p-10">
 	<svg class="align-self-center ml-3 mr-0 w-40" fill="#736CCB" style="transform:rotateY(180deg);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -30,175 +36,80 @@ Make your snake unique by assigning it a color, head, and tail in your response 
 </div>
 
 
----
+## Assigning a Color
 
-## Assign a Color
+Specify the `color` for your snake using a HEX code, such a `#736CCB`. The value you provide must be 7 characters long and begin with `#`. If you do not specify a color, specify an invalid option, a random color will be assigned.
 
-Specify the `color` for your snake using a HEX code (like this: `#736CCB`). A random color will be selected for you if you do not specify a color.
+## Choosing a Head and Tail
 
----
+Find your favorite head and tail combo from the options below and use the name in the parameters `headType` and `tailType`. Both of these values default to `regular` if not provided or not recognized.
 
-## Choose a head and tail
+**Note:** These heads and tails can be mixed and matched however you want. They're arranged here by themes just for convenience.
 
-Find your favorite snake head and tail from the options below and use the name in the parameters `headType` and `tailType`. If you do not specify a head or tail type the "regular" version will be used.
+#### Standard Theme
+
+These customizations were part of the very first Battlesnake event, and hold a special spot in all our hearts.
 
 <div class="row">
-	<div class="col-12 col-sm-5 p-25 card-body">
-		<h4 class="card-header"><strong>Snake Heads</strong></h4>
-		<ul class="list-group">
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/regular.svg" fill="#736CCB" alt="regular snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">regular (default)</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/beluga.svg" alt="beluga snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">beluga</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bendr.svg" alt="bendr snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bendr</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/dead.svg" alt="dead snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">dead</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/evil.svg" alt="evil snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">evil</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/fang.svg" alt="fang snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">fang</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/pixel.svg" alt="pixel snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">pixel</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/safe.svg" alt="safe snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">safe</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/sand-worm.svg" alt="sand-worm snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">sand-worm</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/shades.svg" alt="shades snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">shades</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/silly.svg" alt="silly snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">silly</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/smile.svg" alt="smile snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">smile</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/tongue.svg" alt="tongue snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">tongue</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-bonhomme.svg" alt="bwc-bonhomme snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-bonhomme</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-earmuffs.svg" alt="bwc-earmuffs snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-earmuffs</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-rudolph.svg" alt="bwc-rudolph snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-rudolph</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-scarf.svg" alt="bwc-scarf snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-scarf</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-ski.svg" alt="bwc-ski snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-ski</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-snow-worm.svg" alt="bwc-snow-worm snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-snow-worm</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/head/bwc-snowman.svg" alt="bwc-snowman snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-snowman</p>
-			</li>
-		</ul>
+	<div class="col">
+		<p class="text-right"><strong>Tail Types</strong></p>
+		{% include custom_snake_tail.html name='regular' %}
+		{% include custom_snake_tail.html name='block-bum' %}
+		{% include custom_snake_tail.html name='bolt' %}
+		{% include custom_snake_tail.html name='curled' %}
+		{% include custom_snake_tail.html name='fat-rattle' %}
+		{% include custom_snake_tail.html name='freckled' %}
+		{% include custom_snake_tail.html name='hook' %}
+		{% include custom_snake_tail.html name='pixel' %}
+		{% include custom_snake_tail.html name='round-bum' %}
+		{% include custom_snake_tail.html name='sharp' %}
+		{% include custom_snake_tail.html name='skinny' %}
+		{% include custom_snake_tail.html name='small-rattle' %}
 	</div>
-	<div class="col-12 col-sm-5  p-25 card-body">
-		<h4 class="card-header"><strong>Snake Tails</strong></h4>
-		<ul class="list-group">
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/regular.svg" alt="regular snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">regular (default)</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/block-bum.svg" alt="block-bum snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">block-bum</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/bolt.svg" alt="bolt snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bolt</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/curled.svg" alt="curled snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">curled</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/fat-rattle.svg" alt="fat-rattle snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">fat-rattle</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/freckled.svg" alt="freckled snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">freckled</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/hook.svg" alt="hook snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">hook</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/pixel.svg" alt="pixel snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">pixel</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/round-bum.svg" alt="round-bum snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">round-bum</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/sharp.svg" alt="sharp snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">sharp</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/skinny.svg" alt="skinny snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">skinny</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/small-rattle.svg" alt="small-rattle snake head"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">small-rattle</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/bwc-bonhomme.svg" alt="bwc-bonhomme snake tail"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-bonhomme</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/bwc-flake.svg" alt="bwc-flake snake tail"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-flake</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/bwc-ice-skate.svg" alt="bwc-ice-skate snake tail"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-ice-skate</p>
-			</li>
-			<li class="list-group-item d-flex align-items-center">
-				<img class="justify-self-start mr-2 w-40" src="/assets/images/snake/tail/bwc-present.svg" alt="bwc-present snake tail"/>
-				<p class=" font-size-16 m-0 pl-4 pl-sm-2 pl-md-4">bwc-present</p>
-			</li>
-		</ul>
+	<div class="col-sm-1 col-2"></div>
+	<div class="col">
+		<p><strong>Head Types</strong></p>
+		{% include custom_snake_head.html name='regular' %}
+		{% include custom_snake_head.html name='beluga' %}
+		{% include custom_snake_head.html name='bendr' %}
+		{% include custom_snake_head.html name='dead' %}
+		{% include custom_snake_head.html name='evil' %}
+		{% include custom_snake_head.html name='fang' %}
+		{% include custom_snake_head.html name='pixel' %}
+		{% include custom_snake_head.html name='safe' %}
+		{% include custom_snake_head.html name='sand-worm' %}
+		{% include custom_snake_head.html name='shades' %}
+		{% include custom_snake_head.html name='silly' %}
+		{% include custom_snake_head.html name='smile' %}
+		{% include custom_snake_head.html name='tongue' %}
+	</div>
+</div>
+
+#### Winter Classic 2019 Theme
+
+These customizations were release with the Battlesnake Winter Classic, 2019.
+
+<div class="row">
+	<div class="col">
+		<p class="text-right"><strong>Tail Types</strong></p>
+		{% include custom_snake_tail.html name='bwc-bonhomme' %}
+		{% include custom_snake_tail.html name='bwc-flake' %}
+		{% include custom_snake_tail.html name='bwc-ice-skate' %}
+		{% include custom_snake_tail.html name='bwc-present' %}
+	</div>
+	<div class="col-sm-1 col-2"></div>
+	<div class="col">
+		<p><strong>Head Types</strong></p>
+		{% include custom_snake_head.html name='bwc-bonhomme' %}
+		{% include custom_snake_head.html name='bwc-earmuffs' %}
+		{% include custom_snake_head.html name='bwc-rudolph' %}
+		{% include custom_snake_head.html name='bwc-scarf' %}
+		{% include custom_snake_head.html name='bwc-ski' %}
+		{% include custom_snake_head.html name='bwc-snow-worm' %}
+		{% include custom_snake_head.html name='bwc-snowman' %}
 	</div>
 </div>
 
 ### Futher Reading
 
-Check out the [Battlesnake API Docs](/snake-api.html) for more on information and examples on interacting with the Battlesnake API.
+Check out the [Battlesnake API Reference](/snake-api) for more information and examples.

@@ -15,10 +15,10 @@ Select a technology you want to use to program your Battlesnake server. Anything
 
 A functional Battlesnake server must support 4 endpoints that will be called at different times during each Battlesnake game.
 
-#### [GET /start](/snake-api#tag/endpoints/paths/~1start/post)
+#### [GET /ping](/snake-api#tag/endpoints/paths/~1ping/post)
 The engine is asking your Battlesnake if it is alive and functional.
 
-#### [POST /start](/snake-api#tag/endpoints/paths/~1ping/post)
+#### [POST /start](/snake-api#tag/endpoints/paths/~1start/post)
 Notifies your Battlesnake that it is participating in a new game.
 
 #### [POST /move](/snake-api#tag/endpoints/paths/~1move/post)
@@ -32,7 +32,7 @@ Each endpoint will be sent a JSON data blob by the Game Engine and your server m
 {% include wisdom.html
     title="Concurrent Games"
     content="
-Your Battlesnake is a live web service and could be playing multiple games at the same time. The **/start**, **/move** and **/end** requests will all contain a Game ID that uniquely identifies which game the request is for. You should develop your snake to handle requests from different games at the same time." %}
+Your Battlesnake is a live web service and could be playing multiple games at the same time. The `/start`, `/move` and `/end` requests will all contain a Game ID that uniquely identifies which game the request is for. You should develop your snake to handle requests from different games at the same time." %}
 
 ## Step 2: Deploy Your Battlesnake
 
@@ -43,7 +43,7 @@ Most of the [Starter Snake Projects](/starter-snakes) have instructions for depl
 {% include wisdom.html
     title="Don't Take Too Long"
     content="
-The Game Engine gives snakes 500ms to respond to a **/move** request, including any network time. If your snake does not respond in time, the engine will reuse the move from the previous turn." %}
+The Game Engine gives snakes 500ms to respond to a `/move` request, including any network time. If your snake does not respond in time, the engine will reuse the move from the previous turn." %}
 
 ## Step 3: Register Your Battlesnake
 

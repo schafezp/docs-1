@@ -1,13 +1,14 @@
 ---
 title: Starter Snakes
-subtitle: Simple Projects to Get You Started Quickly
+subtitle: Simple projects to get you started quickly
 permalink: /starter-snakes
 layout: page
 ---
 
-The Battlesnake community provides a selection of basic Starter Snake projects to get you started quickly.
-
 ## Official Starter Snakes
+
+These Starter Snake Projects are built and maintained by the Battlesnake team. We do our best to keep these functional and up to date with the latest game features and API changes. They're a great starting point for anyone wanting to try Battlesnake for the first time.
+
 
 * [Go Starter Snake](https://github.com/battlesnakeofficial/starter-snake-go)
 * [Java Starter Snake](https://github.com/battlesnakeofficial/starter-snake-java)
@@ -15,18 +16,18 @@ The Battlesnake community provides a selection of basic Starter Snake projects t
 * [Python Starter Snake](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Ruby Starter Snake](https://github.com/battlesnakeofficial/starter-snake-ruby)
 
-These Starter Snake projects are built and maintained by the Battlesnake team. We do our best to keep these functional and up to date with the latest game features and API changes.
-
----
-
 ## Community Starter Snakes
 
-* [Amazon Sagemaker ML Snake](https://github.com/awslabs/sagemaker-battlesnake-ai) by [AWS labs](https://github.com/awslabs)
-* [Kotlin Starter Snake](https://github.com/athenian-programming/starter-snake-kotlin) by [Athenian Programming](https://github.com/athenian-programming)
-* [Rust(y) Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
-* [AzureSnake (Node.js)](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
+The Battlesnake community is all about collaboration and shared learning. Some of our core members and best supporters have built their own Starter Snake Projects to get you started with new languages, ideas, and programming techniques.
 
-**Want to submit your Starter Snake project?** Wonderful! You can [submit a pull request or create an issue](https://github.com/battlesnakeofficial/docs) and we'll take a look. Community created Starter Snakes must contain the following before being listed:
+* [Machine Learning Battlesnake with Amazon Sagemaker](https://github.com/awslabs/sagemaker-battlesnake-ai) by [AWS Labs](https://github.com/awslabs)
+* [Kotlin Starter Snake](https://github.com/athenian-programming/starter-snake-kotlin) by [Athenian Programming](https://github.com/athenian-programming)
+* [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
+* [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
+
+## Contributing Your Own Starter Snake
+
+**Want to submit your Starter Snake Project?** Wonderful! You can [submit a pull request or create an issue](https://github.com/BattlesnakeOfficial/docs) and we'll take a look. Community created Starter Snakes must contain the following before being listed:
 
 * Contain just enough code to run a basic snake server and nothing more.
 * Return hardcoded responses back to the game engine.
