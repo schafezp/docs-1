@@ -23,3 +23,7 @@ body.content-menu .content-wrapper .sidebar-left .sidebar-content nav.main-menu 
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.card.page .alert-secondary p {
+    color: #788db4;
+}

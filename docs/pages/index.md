@@ -29,10 +29,10 @@ Notifies your Battlesnake that the game is now over and which Battlesnake has wo
 
 Each endpoint will be sent a JSON data blob by the Game Engine and your server must respond with a HTTP 200 OK status code and an appropriate JSON response. The protocol for these requests and responses are defined in detail in the [Battlesnake API Reference](/snake-api).
 
-<div class="alert alert-secondary alert-outline">
-<h5 class="text-secondary"><strong> <svg class="float-left m-r-10" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="fill:#32C1DB"><circle fill="none" cx="13" cy="29" r="9" /><path d="M88 57l11-11a3 3 0 0 0-4-5L82 54H43l48-38V0H0v100h89L44 60h38l13 13a3 3 0 0 0 4-5zM13 38a9 9 0 1 1 10-9 9 9 0 0 1-10 9z" /></svg> Battlesnake Wisdom - Concurrent Games </strong></h5>
-<p class="text-secondary">Your Battlesnake is a live web service and could be playing multiple games at the same time. The <strong>/start</strong>, <strong>/move</strong> and <strong>/end</strong> requests will all contain a Game ID that uniquely identifies which game the request is for. You should develop your snake to handle requests from different games at the same time.</p>
-</div>
+{% include wisdom.html
+    title="Concurrent Games"
+    content="
+Your Battlesnake is a live web service and could be playing multiple games at the same time. The **/start**, **/move** and **/end** requests will all contain a Game ID that uniquely identifies which game the request is for. You should develop your snake to handle requests from different games at the same time." %}
 
 ## Step 2: Deploy Your Battlesnake
 
@@ -40,10 +40,10 @@ Before your Battlesnake can enter games and do battle, it must be deployed to a 
 
 Most of the [Starter Snake Projects](/starter-snakes) have instructions for deploying quickly to Heroku, which is a great option if you're new to web development or uncomfortable deploying code to a live server on your own.
 
-<div class="alert alert-secondary alert-outline">
-<h5 class="text-secondary"><strong> <svg class="float-left m-r-10" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="fill:#32C1DB"><circle fill="none" cx="13" cy="29" r="9" /><path d="M88 57l11-11a3 3 0 0 0-4-5L82 54H43l48-38V0H0v100h89L44 60h38l13 13a3 3 0 0 0 4-5zM13 38a9 9 0 1 1 10-9 9 9 0 0 1-10 9z" /></svg> Battlesnake Wisdom - Don't Take Too Long </strong></h5>
-<p class="text-secondary">The Game Engine gives snakes 500 ms to respond to a <strong>/move</strong> request, including any network time. If your snake does not respond in time, the engine will reuse the move from the previous turn.</p>
-</div>
+{% include wisdom.html
+    title="Don't Take Too Long"
+    content="
+The Game Engine gives snakes 500ms to respond to a **/move** request, including any network time. If your snake does not respond in time, the engine will reuse the move from the previous turn." %}
 
 ## Step 3: Register Your Battlesnake
 
@@ -51,12 +51,12 @@ Once your Battlesnake is operational, it needs to be registered on the Battlesna
 
 [Click here to Register a new Battlesnake.](https://play.battlesnake.com/account/snakes/create/)
 
-<div class="alert alert-secondary alert-outline">
-<h5 class="text-secondary"><strong> <svg class="float-left m-r-10" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="fill:#32C1DB"><circle fill="none" cx="13" cy="29" r="9" /><path d="M88 57l11-11a3 3 0 0 0-4-5L82 54H43l48-38V0H0v100h89L44 60h38l13 13a3 3 0 0 0 4-5zM13 38a9 9 0 1 1 10-9 9 9 0 0 1-10 9z" /></svg> Battlesnake Wisdom - Names Are Important!</strong></h5>
-<p class="text-secondary">Be creative with your Battlesnake name and description! Names like <em>test</em> or <em>snake1</em> are easy to confuse with other developer's Battlesnakes and fail to tell viewers anything about your Battlesnake.</p>
+{% include wisdom.html
+    title="Names Are Important!"
+    content="
+Be creative with your Battlesnake name and description! Names like *test* or *snake-1* are easy to confuse with other developer's Battlesnakes and fail to tell viewers anything about your Battlesnake.
 
-<p class="text-secondary">That said, creativity has limits. Make sure not to violate the <a href="https://play.battlesnake.com/about/conduct/">Battlesnake Code of Conduct</a> with your choices or your Battlesnake may be removed.</p>
-</div>
+That said, creativity has limits. Make sure not to violate the [Battlesnake Code of conduct](https://play.battlesnake.com/about/conduct/) with your choices or your Battlesnake may be removed." %}
 
 ## Step 4: Test Your Battlesnake
 
