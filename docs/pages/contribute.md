@@ -1,7 +1,7 @@
 ---
 title: Contributing to Battlesnake
 permalink: /contribute
-layout: card
+layout: page
 ---
 
 We believe in the power of collaboration to make products great, so we want your help! We’ve got documentation that needs writing, bugs that need squashing, UI that needs designing, and more! If you are interested in helping to make Battlesnake better, there are many ways to help
@@ -14,7 +14,7 @@ When creating a new Starter Snake, make sure that you use the README TEMPLATE as
 Bugs will always exist with the system and we can always use help keeping things running optimally. We are also big believers in unit tests and good test coverage will make it easier to integrate future community contributions.
 
 #### Writing Documentation
-There is always a need for more documentation on Battlesnake whether it is a description of an algorithm or a new guide teaching someone how to deploy on a cloud platform. If you see some kind of documentation missing in the system or a mistake with some existing documentation feel free to contribute. 
+There is always a need for more documentation on Battlesnake whether it is a description of an algorithm or a new guide teaching someone how to deploy on a cloud platform. If you see some kind of documentation missing in the system or a mistake with some existing documentation feel free to contribute.
 
 #### New Features
 Do you have an idea on how to make Battlesnake better? Is there a vital feature you noticed missing? Battlesnake is an evolving code base and we welcome these kind of contributions to the system. Even if you don't have any ideas, review the Github issues for the projects to see if there is something you want to work on.
@@ -25,7 +25,7 @@ Do you have an idea on how to make Battlesnake better? Is there a vital feature 
 
 For our open source projects we use Github issues to keep track of improvements, bugs and enhancements. Feel free to create new issues for feature ideas you have or to flag bugs that you have seen in the system. The issues will be regularly reviewed and prioritized by Battlesnake staff and community members.
 
-All of the open source projects for Battlesnake can be found on the [BattleSnake Official](https://github.com/battlesnakeofficial) organization. 
+All of the open source projects for Battlesnake can be found on the [BattleSnake Official](https://github.com/battlesnakeofficial) organization.
 
 #### <a href="https://github.com/BattlesnakeOfficial/board" target="_blank">Board</a>
 

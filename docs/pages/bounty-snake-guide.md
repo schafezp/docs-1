@@ -1,15 +1,15 @@
 ---
 title: Bounty Snake Guide
 permalink: /bounty-snake-guide
-layout: card
+layout: page
 ---
 
 ## What are Bounty Snakes?
 
-Our Bounty Snake program is a unique way for event sponsors to interact directly with Battlesnake developers and spectators. It’s a fantastic way to meet attendees and showcase your engineering team and technology stack. Above all, it’s fun for everyone :-) 
+Our Bounty Snake program is a unique way for event sponsors to interact directly with Battlesnake developers and spectators. It’s a fantastic way to meet attendees and showcase your engineering team and technology stack. Above all, it’s fun for everyone :-)
 
 Bounty Snakes are extra challenges offered by the event sponsors, and they are comprised of two parts. First, your team will program one or more Bounty Snakes to play the game in whatever way you want. Second, you will create a unique challenge that participants can overcome to win prizes - your “Bounty Snake Prize”. Throughout the event Battlesnake developers will be encouraged to visit your booth to challenge your Bounty Snake and win your prize.
- 
+
 Bounty Snakes can take on many forms, and Battlesnake sponsors are famous for their creativity. We’ve seen Bounty Snakes that range from difficult 1v1 scenarios, to custom game modes that introduces new game mechanics and difficulty.
 
 Bounty Snake Prizes can be equally creative - sometimes they’re simple giveaways or swag. Some sponsors give entry into a draw or raffle for larger prizes. Your Bounty Prizes can be as simple or creative as you want. Each Bounty Snake sponsor will have an opportunity to present their prize(s) on stage throughout the event.

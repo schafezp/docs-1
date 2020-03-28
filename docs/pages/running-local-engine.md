@@ -1,7 +1,7 @@
 ---
 title: Running a Local Engine
 permalink: /run-local-engine
-layout: card
+layout: page
 ---
 
 # The Battlesnake Engine

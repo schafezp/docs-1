@@ -1,7 +1,7 @@
 ---
 title: Live Events - Frequently Asked Questions
 permalink: /live-event-faq
-layout: card
+layout: page
 ---
 
 [General Questions](#general-questions)<br/>
@@ -23,22 +23,22 @@ Teams can enter three different brackets at the tournament depending on experien
 ---
 
 #### Is there a maximum team size?
-No, but we find teams of 2-4 tend to have the most success. 
+No, but we find teams of 2-4 tend to have the most success.
 
 ---
 
 #### When do I register my team?
-At the Live event, on March 15 at the Conference Centre. There will be a Team Registration Table beside the check-in table. 
+At the Live event, on March 15 at the Conference Centre. There will be a Team Registration Table beside the check-in table.
 
 ---
 
 #### I don’t have a team, can I still compete?
-Yes, you can compete as a team of one or join a team the day of. 
+Yes, you can compete as a team of one or join a team the day of.
 
 ---
 
 #### Who is the event for?
-Everyone is welcome, either as a competitor or a spectator. 
+Everyone is welcome, either as a competitor or a spectator.
 
 ---
 
@@ -63,9 +63,9 @@ Yes! Lunch, coffee, tea and snacks will be provided throughout the day.
 ---
 
 #### Do I need to know how to program?
-* Battlesnake is best for those with beginner level programming skills and above. You’ll have to know the basics of at least one programming language to get started. 
-* If you’re brand new to programming and want to start learning - awesome, we’re happy you’re here! 
-* We’re working on some new resources and ways to help you get started. 
+* Battlesnake is best for those with beginner level programming skills and above. You’ll have to know the basics of at least one programming language to get started.
+* If you’re brand new to programming and want to start learning - awesome, we’re happy you’re here!
+* We’re working on some new resources and ways to help you get started.
 * In the meantime, you might want to check out some online programming tutorials to get the basics down.
 
 ---
@@ -85,9 +85,9 @@ Participating as a team is optional! Teams are fun, but some choose to work alon
 ---
 
 #### What, exactly, will I be doing?
-You’ll be programming a web server to play Battlesnake using the Battlesnake API. 
-You will challenge other snakes and win prizes. 
-You will enter a tournament with other developers of similar skill and experience and the top teams will win prizes! 
+You’ll be programming a web server to play Battlesnake using the Battlesnake API.
+You will challenge other snakes and win prizes.
+You will enter a tournament with other developers of similar skill and experience and the top teams will win prizes!
 There will be workshops and volunteers to help you be successful.
 
 ---
@@ -103,7 +103,7 @@ Workshops and programming starts at 9:00 am. The Live tournament begins at 3:00 
 ---
 
 #### What prizes are available to me?
-* Sponsors will be handing out prizes throughout the day. (They tend to get creative and in the past, they’ve given out everything from cash, to swag, to gift cards, to giant snake stuffies, and even wrestling masks.) 
+* Sponsors will be handing out prizes throughout the day. (They tend to get creative and in the past, they’ve given out everything from cash, to swag, to gift cards, to giant snake stuffies, and even wrestling masks.)
 * There’s a large prize pool for the tournament winners.
 
 ---
@@ -111,8 +111,8 @@ Workshops and programming starts at 9:00 am. The Live tournament begins at 3:00 
 #### Will I feel comfortable and included even if I’m new to programming or new to Battlesnake?
 * Yes! Many others will be participating for the first time, too.
 * There are multiple tournament divisions, based on experience and skill level, and there will be one that feels right for you.
-* Help is available before the event, through the [Battlesnake Documentation](http://docs.battlesnake.com/), the [Battlesnake Slack Workspace](http://play.battlesnake.com/slack), and [Battlesnake GitHub](http://play.battlesnake.com/github). 
-* You’ll also find help on the day-of, through workshops and volunteers who will be available throughout the day. 
+* Help is available before the event, through the [Battlesnake Documentation](http://docs.battlesnake.com/), the [Battlesnake Slack Workspace](http://play.battlesnake.com/slack), and [Battlesnake GitHub](http://play.battlesnake.com/github).
+* You’ll also find help on the day-of, through workshops and volunteers who will be available throughout the day.
 
 ---
 
@@ -139,7 +139,7 @@ Yes! Register on Eventbrite as a ‘Battlesnake Developer’.
 ---
 
 #### How can I get started making my snake?
-1. Sign up at [play.battlesnake.com](http://play.battlesnake.com). 
+1. Sign up at [play.battlesnake.com](http://play.battlesnake.com).
 2. Read [docs.battlesnake.com](http://docs.battlesnake.com) to learn how the API works.
 
 ---
@@ -194,7 +194,7 @@ Yes! Register on [Eventbrite](https://www.eventbrite.ca/e/battlesnake-victoria-2
 ---
 
 #### Can I participate remotely?
-This year we’re testing an ‘International Division’ for Battlesnake developers who are unable to attend in person and who want to participate remotely. Spots are limited — [apply here](https://forms.gle/AAoB7Kjz9cCGGUnK6). 
+This year we’re testing an ‘International Division’ for Battlesnake developers who are unable to attend in person and who want to participate remotely. Spots are limited — [apply here](https://forms.gle/AAoB7Kjz9cCGGUnK6).
 
 ---
 
@@ -234,7 +234,7 @@ The tournament typically lasts 2-3 hours.
 ---
 
 #### Is Battlesnake family/kid-friendly?
-Yes! Many people bring their kids to Battlesnake to show them how fun and exciting programming can be. 
+Yes! Many people bring their kids to Battlesnake to show them how fun and exciting programming can be.
 
 ---
 
@@ -268,7 +268,7 @@ Registering as a spectator is not required but doing so will help us ensure we h
 ---
 
 #### What should I do if I am thinking about sponsoring?
-Contact our sponsorship team at [sponsorship@battlesnake.com](mailto:sponsorship@battlesnake.com). 
+Contact our sponsorship team at [sponsorship@battlesnake.com](mailto:sponsorship@battlesnake.com).
 
 ---
 
@@ -299,7 +299,7 @@ Battlesnake will be live-cast and streamed on the [Battlesnake Official Twitch C
 ---
 
 #### Interested in volunteering?
-We’re always looking for help!. Contact us at [volunteers@battlesnake.com](mailto:volunteers@battlesnake.com). 
+We’re always looking for help!. Contact us at [volunteers@battlesnake.com](mailto:volunteers@battlesnake.com).
 
 ---
 

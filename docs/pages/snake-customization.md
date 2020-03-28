@@ -1,7 +1,7 @@
 ---
 title: Customizing Your Snake
 permalink: /snake-customization
-layout: card
+layout: page
 ---
 
 Make your snake unique by assigning it a color, head, and tail in your response to the Battlesnake API's `start` request.

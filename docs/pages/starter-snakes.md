@@ -2,7 +2,7 @@
 title: Starter Snakes
 subtitle: Simple Projects to Get You Started Quickly
 permalink: /starter-snakes
-layout: card
+layout: page
 ---
 
 The Battlesnake community provides a selection of basic Starter Snake projects to get you started quickly.

@@ -1,8 +1,8 @@
 ---
 title: Developer - Frequently Asked Questions
 permalink: /faq
-subtitle: 
-layout: card
+subtitle:
+layout: page
 ---
 
 #### Do I need to know how to program?
