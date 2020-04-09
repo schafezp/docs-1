@@ -11,7 +11,7 @@ A Battlesnake is a programmed web server that implements the [Battlesnake API](/
 
 ## Step 1: Build Your Battlesnake
 
-Select a technology you want to use to program your Battlesnake server. Anything that can process a web request and be deployed to the internet will work. There are several well documented [Starter Snakes Projects](/stater-snakes) that can be used as a base if you don't want to start from scratch. Each is built with a popular programming language and web application framework.
+Select a technology you want to use to program your Battlesnake server. Anything that can process a web request and be deployed to the internet will work. There are several well documented [Starter Snakes Projects](/starter-snakes) that can be used as a base if you don't want to start from scratch. Each is built with a popular programming language and web application framework.
 
 A functional Battlesnake server must support 4 endpoints that will be called at different times during each Battlesnake game.
 
